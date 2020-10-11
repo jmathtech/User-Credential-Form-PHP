@@ -2,8 +2,8 @@
   * This is a user credential form project for 'customers' and business vendors; written scripts are in PHP and SQL for the MySQL database.
   * NOTE: To use database, create a database name like 'customers' and import the users.sql in phpmyadmin, etc. To connect, you can use 
   " localhost:port/ " if you're using Apache or WAMPserver.
-  
-  
+  * This comes with a GUI database. As you'll find, the CSS stylesheets are in separate folders.
+
 
 #### Server request determines if the request is POST or GET
 ```php
