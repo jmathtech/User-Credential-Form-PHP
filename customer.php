@@ -4,7 +4,7 @@
 	*
 	*****  Created by Jamil Matheny
 	*****  10/09/2020
-	*****  This database is just a 3d model to display a database table for demonstration purposes.
+	*****  This database is just an example display a database table for general purposes.
 	*****	
 	****************************************************************************************************
 	* Call 'echo' from DB_customers to each row on the database 
