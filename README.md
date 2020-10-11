@@ -1,7 +1,7 @@
 # User Credential Form in PHP
   * This is a user credential form project for 'customers' and business vendors; written scripts are in PHP and SQL for the MySQL database.
   * NOTE: To use database, create a database name like 'customers' and import the users.sql in phpmyadmin, etc. To connect, you can use 
-  " localhost:port/ ".
+  " localhost:port/ " if you're using Apache or WAMPserver.
   
   
 
