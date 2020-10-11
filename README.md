@@ -12,7 +12,7 @@
   * Open the 'connect.php' & 'customer.php' files from the .zip file to manually change the database credentials to your own database credentials. Example @ Establishing connection to server
   * Upload all files (except 'users.sql' and 'sql folder) and folders to your FTP server.
   * Go to your web browser and type in the web address https://yourdomain.com/users.php to see the user credential form.
-  * Try out the https://yourdomain.com/customer.php to make sure the database works as well.
+  * Try out the https://yourdomain.com/customer.php to ensure the database works as well.
 
 #### Establishing connection to server
 ```php
