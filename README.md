@@ -1,5 +1,7 @@
-# User-Credential-Form-PHP
-A user credential form for 'customers' and business vendors; written scripts are in PHP.
+# User Credential Form in PHP
+  * This is a user credential form project for 'customers' and business vendors; written scripts are in PHP and SQL for the MySQL database.
+  * NOTE: To use database, create a database name like 'customers' and import the users.sql in phpmyadmin, etc.
+  
 
 #### Server request determines if the request is POST or GET
 ```php
