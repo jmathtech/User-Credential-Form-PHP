@@ -102,7 +102,7 @@ On Line 20-32.
 Found in the 'formstyle.css' file.
 
 ## Contributors
-[https://github.com/jmathtech]Jamil Matheny(url)
+[Jamil Matheny](https://github.com/jmathtech)
 ## Example Screenshots
 
 ##### The user credential form  
