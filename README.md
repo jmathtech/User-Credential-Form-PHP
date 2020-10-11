@@ -4,6 +4,12 @@
   " localhost:port/ " if you're using Apache or WAMPserver.
   * This comes with a GUI database. As you'll find, the CSS stylesheets are in separate folders.
 
+#### Establishing connection to server
+```php
+$db = mysqli_connect("servername", "username", "password", "databasename");
+
+```
+
 
 #### Server request determines if the request is POST or GET
 ```php
