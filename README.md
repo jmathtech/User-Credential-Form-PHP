@@ -27,19 +27,18 @@ Found in the 'connect.php' file on Line 20 (first) & Line 9 (second).
 ### mysqli_connect | Utilizing the database connection to retrieve data
 
 ```php
-/* Initialize connection with database.
-	*  Built-in functions that connects to the database.
-	*/ 
-	$db = mysqli_connect("localhost", "root", "", "customers"); 
+
+       /* Initialize connection with database. */ 
+       
+	$db = mysqli_connect("localhost", "root", "", "customers");  // 
 	
-	
-	$sql = "SELECT * FROM users";
-	// Query that you want to trigger.
+	$sql = "SELECT * FROM users";    // SQL Query that you want to assign to that table.
 
 	$result = mysqli_query($db, $sql);
 	/* Run the query using the database connection and the query.
 	*  Select from the top two $db and $sql. 
 	*/
+	
 ```
 
 Found in the 'customer.php' to display a GUI of the database. 
