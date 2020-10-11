@@ -10,7 +10,6 @@ $db = mysqli_connect("servername", "username", "password", "databasename");
 
 ```
 
-
 #### Server request determines if the request is POST or GET
 ```php
 
@@ -28,29 +27,8 @@ if ($mysqli -> connect_errno) {
 }
 
 ```
-Found in the 'connect.php' file on Line 20 (first) & Line 9 (second).
 
-### mysqli_connect | Utilizing the database connection to retrieve data
-
-```php
-
-       /* Initialize connection with database. */ 
-       
-	$db = mysqli_connect("localhost", "root", "", "customers");  // 
-	
-	$sql = "SELECT * FROM users";    // SQL Query that you want to assign to that table.
-
-	$result = mysqli_query($db, $sql);
-	/* Run the query using the database connection and the query.
-	*  Select from the top two $db and $sql. 
-	*/
-	
-```
-
-Found in the 'customer.php' to display a GUI of the database. 
-On Line 20-32.
-
-### Customized Cascade Stylesheet 
+#### Customized Cascade Stylesheet 
 ```css
 
 	  /* Form CSS Layout*/
@@ -77,10 +55,10 @@ On Line 20-32.
       }
       
 ```
-Found in the 'formstyle.css' file.
 
 ## Contributors
 [Jamil Matheny](https://github.com/jmathtech)
+
 ## Example Screenshots
 
 ##### The user credential form  
