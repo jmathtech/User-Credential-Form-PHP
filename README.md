@@ -47,33 +47,6 @@ On Line 20-32.
 ### Customized Cascade Stylesheet 
 ```css
 
-/* HTML document */
-      body, div, form, input, select, p { 
-	
-	  padding-top: 20px;
-	  padding-bottom: 10px;
-	  padding-left: 300px;
-	  padding-right: 250px;
-      margin: 0;
-      outline: none;
-      font-family: Arial, Verdana;
-      font-size: 13px;
-      color: #000000;
-      line-height: 30px;
-	  position: relative;
-		
-		
-      }
-	  
-      /* User Credential title*/
-      h2 {
-      font-weight: 400px;
-	  color: #d1d1d1;
-	  font-family: Verdana;
-	  position: relative;
-	  text-align: right;
-	  }
-	  
 	  /* Form CSS Layout*/
       form {
       width: 500px; 
