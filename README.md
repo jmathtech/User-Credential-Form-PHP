@@ -1,7 +1,7 @@
 # User-Credential-Form-PHP
 A user credential form for 'customers' and business vendors; written scripts are in PHP.
 
-#### Server request to determine if the request is POST or GET
+#### Server request determines if the request is POST or GET
 ```php
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 
