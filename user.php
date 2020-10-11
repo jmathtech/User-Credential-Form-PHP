@@ -46,7 +46,7 @@
 				  <label> No.# of Staff:<br/></label>
 				  <input type="text" id="Cus_NumOfStaff" name="Cus_NumOfStaff" value=""><br><br>
 				  
-				  <input type="submit" value="Submit">
+				  <input type="submit" value="Submit" />
 			
 				
 				</form>
