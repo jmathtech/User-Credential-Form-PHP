@@ -94,16 +94,6 @@
 	<p>Created by &#169; Jamil Matheny. General Public License (GPL) Open-source.</p>
 	
 	
-	<script>
-		function myFunction() {
-		  var element, name, arr;
-		  element = document.getElementById("myDIV");
-		  name = "mystyle";
-		  arr = element.className.split(" ");
-		  if (arr.indexOf(name) == -1) {
-			element.className += " " + name;
-		  }
-	}
-	</script>
+	
 </body>
 </html>
