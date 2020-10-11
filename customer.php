@@ -20,7 +20,7 @@
 	
        /* Initialize connection with database. */ 
        
-	$db = mysqli_connect("localhost", "root", "", "customers");  // 'ysqli_connect' is a function in php to connect to the database.
+	$db = mysqli_connect("localhost", "root", "", "customers");  // 'mysqli_connect' is a function in php to connect to the database.
 	
 	$sql = "SELECT * FROM users";    // SQL Query that you want to assign to that table.
 
