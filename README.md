@@ -22,7 +22,25 @@ if ($mysqli -> connect_errno) {
 }
 
 ```
-NOTE: You can find this code in the 'connect.php' file.
+DESCRIPTION: You can find this code in the 'connect.php' file.
+
+### mysqli_connect | Utilizing the database connection to retrieve data
+
+```php
+/* Initialize connection with database.
+	*  Built-in functions that connects to the database.
+	*/ 
+	$db = mysqli_connect("localhost", "root", "", "customers"); 
+	
+	
+	$sql = "SELECT * FROM users";
+	// Query that you want to trigger.
+
+	$result = mysqli_query($db, $sql);
+	/* Run the query using the database connection and the query.
+	*  Select from the top two $db and $sql. 
+	*/
+```
 
 ## Example Screenshots
 
