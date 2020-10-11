@@ -1,14 +1,18 @@
-	html, body {
+      html, body {
+	      
+      /* HTML document */	
       min-height: 100%;
+	
+	
       }
 	  
-	  /* HTML document */
+      
       body, div, form, input, select, p { 
 	
-	  padding-top: 30px;
-	  padding-bottom: 10px;
-	  padding-left: 30px;
-	  padding-right: 30px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30px;    
       margin: 0;
       outline: none;
       font-family: Arial, Verdana;
@@ -17,32 +21,39 @@
       line-height: 22px;
 	  position: relative;
 		
+	      
       }
 	  
+
       /* User Credential title*/
       h2 {
       font-weight: 400px;
 	  color: #c5d1c8;
 
+	      
       }
 	  
-	  /* Form CSS Layout*/
+
+      /* Form CSS Layout*/
       form {
       width: 500px;
       padding: 50px;
       border-radius: 6px;
       background: #fff;
       box-shadow: 0 0 20px 0 #32a4a8; 
+	      
+	      
       }
-	  
-	  /* Form CSS User Input */
+
+
+      /* Form CSS User Input */
       input {
       margin-bottom: 10px;
       border: 1px solid #ccc;
       border-radius: 3px;
       width: calc(100% - 10px);
       padding: 4px;
+	      
       }
-	  
-      
-	}
+
+	 }
