@@ -22,7 +22,7 @@ if ($mysqli -> connect_errno) {
 }
 
 ```
-DESCRIPTION: You can find this code in the 'connect.php' file.
+Code in the 'connect.php' file on Line 20 (first) & Line 9 (second).
 
 ### mysqli_connect | Utilizing the database connection to retrieve data
 
@@ -41,6 +41,9 @@ DESCRIPTION: You can find this code in the 'connect.php' file.
 	*  Select from the top two $db and $sql. 
 	*/
 ```
+
+Code is in the 'customer.php' to display a GUI of the database. 
+On Line 20-32.
 
 ## Example Screenshots
 
