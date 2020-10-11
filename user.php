@@ -16,7 +16,7 @@
 				 <form action="connect.php" method="Post">
 				
 					<div>
-						<h2>User Credentials </h> 
+						<h2>User Credentials </h2> 
 					</div>
 				  <label> First name:<br/></label>
 				  <input type="text" id="Cus_FirstName" name="Cus_FirstName" value="" required><br><br>
