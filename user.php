@@ -5,7 +5,8 @@
 
 	<head>
 		<title>User Credentials</title>
-		<link rel="stylesheet" href="formstyle.css" /></head>
+		<link rel="stylesheet" href="formstyle.css" />
+	</head>
 
 		<body>
 			
