@@ -65,4 +65,5 @@ if ($mysqli -> connect_errno) {
 ![image](https://user-images.githubusercontent.com/36749450/95667495-f7e33680-0b34-11eb-9a0e-95e208365784.png)
 
 ##### The database
-![image](https://user-images.githubusercontent.com/36749450/95667479-ce2a0f80-0b34-11eb-8dff-d17541983f32.png)
+![image](https://user-images.githubusercontent.com/36749450/95684777-c6fd1300-0bc1-11eb-8023-3d2bdea406a2.png)
+
