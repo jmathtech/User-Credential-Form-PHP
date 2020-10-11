@@ -22,6 +22,7 @@ if ($mysqli -> connect_errno) {
 }
 
 ```
+NOTE: You can find this code in the 'connect.php' file.
 
 ## Example Screenshots
 
