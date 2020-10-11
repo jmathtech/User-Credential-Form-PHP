@@ -3,6 +3,16 @@
   * NOTE: To use database, create a database name like 'customers' and import the users.sql in phpmyadmin, etc. To connect, you can use 
   " localhost:port/ " if you're using Apache or WAMPserver.
   * This comes with a GUI database. As you'll find, the CSS stylesheets are in separate folders.
+  
+# Instructions on how to install
+  * Download the release .zip file.
+  * Extract all of the folders and files.
+  * Open your domain's SQL database server.
+  * Import the 'users.sql' from the 'sql' folder to the database (this will include dummy names to use to test the database).
+  * Open the 'connect.php' & 'customer.php' files to manual change the database credentials to your own database credentials. Example @ Establishing connection to server
+  * Upload all files (except 'users.sql' and 'sql folder) and folders to your FTP server.
+  * Go to your web browser and type in the web address https://yourdomain.com/users.php to see the user credential form.
+  * Try out the https://yourdomain.com/customer.php to make sure the database works as well.
 
 #### Establishing connection to server
 ```php
