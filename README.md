@@ -22,7 +22,7 @@ if ($mysqli -> connect_errno) {
 }
 
 ```
-Code in the 'connect.php' file on Line 20 (first) & Line 9 (second).
+Found in the 'connect.php' file on Line 20 (first) & Line 9 (second).
 
 ### mysqli_connect | Utilizing the database connection to retrieve data
 
@@ -42,7 +42,7 @@ Code in the 'connect.php' file on Line 20 (first) & Line 9 (second).
 	*/
 ```
 
-Code is in the 'customer.php' to display a GUI of the database. 
+Found in the 'customer.php' to display a GUI of the database. 
 On Line 20-32.
 
 ### Customized Cascade Stylesheet 
@@ -99,6 +99,8 @@ On Line 20-32.
       }
       
 ```
+Found in the formstyle.css file.
+
 ## Example Screenshots
 
 ##### The user credential form  
