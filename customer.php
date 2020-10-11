@@ -4,10 +4,10 @@
 	*
 	*****  Created by Jamil Matheny
 	*****  10/09/2020
-	*****  This database is just an example display a database table for general purposes.
+	*****  This database is just a 3d model to display a database table for demonstration purposes.
 	*****	
 	****************************************************************************************************
-	* Call 'echo' from DB_customers to each row on the database 
+	* Call 'echo' from DB_customers to each row on the database.
 	* Using MySQL database on the WAMPserver.
 	****************************************************************************************************
 	* Form data created by Jamil Matheny
@@ -36,7 +36,7 @@
 <html>
 <head>
 <title>Database Table for Customers</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
