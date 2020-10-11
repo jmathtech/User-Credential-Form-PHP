@@ -7,7 +7,19 @@
 
 #### Server request determines if the request is POST or GET
 ```php
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
+
+```
+
+#### SQL server check connection with error handling
+```php
+
+// Check connection
+if ($mysqli -> connect_errno) {
+  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+  exit();
+}
 
 ```
 
