@@ -101,6 +101,8 @@ On Line 20-32.
 ```
 Found in the 'formstyle.css' file.
 
+## Contributors
+
 ## Example Screenshots
 
 ##### The user credential form  
