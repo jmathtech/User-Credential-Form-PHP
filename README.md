@@ -5,7 +5,7 @@
   * This comes with a GUI database. As you'll find, the CSS stylesheets are in separate folders.
   
 # Instructions on how to install
-  * Download the release .zip file.
+  * Download the [release](https://github.com/jmathtech/User-Credential-Form-PHP/releases/tag/php) .zip file.
   * Extract all of the folders and files.
   * Open your domain's SQL database server.
   * Import the 'users.sql' from the 'sql' folder to the database (this will include dummy names to use to test the database).
