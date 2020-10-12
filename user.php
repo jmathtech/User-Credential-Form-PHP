@@ -4,8 +4,10 @@
 <html>
 
 	<head>
+	
 		<title>User Credentials</title>
-		<link rel="stylesheet" href="formstyle.css" />
+		<link rel="stylesheet" href="css/formstyle.css" />
+		
 	</head>
 
 		<body>
@@ -13,9 +15,9 @@
 				
 				 <form action="connect.php" method="Post">
 				
-					<div>
+					
 						<h2>User Credentials </h2> 
-					</div>
+					
 				  <label> First name:<br/></label>
 				  <input type="text" id="Cus_FirstName" name="Cus_FirstName" value="" required><br><br>
 				  
@@ -47,10 +49,10 @@
 				  <input type="text" id="Cus_NumOfStaff" name="Cus_NumOfStaff" value=""><br><br>
 				  
 				  <input type="submit" value="Submit" />
-			
-				
+				  
+						
 				</form>
-				<p>Created by &#169; Jamil Matheny. General Public License (GPL) Open-source.</p>
+				
 		</body>
 		
  </html>
