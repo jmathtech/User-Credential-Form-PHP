@@ -73,7 +73,7 @@ if ($mysqli -> connect_errno) {
 ## Contributors
 [Jamil Matheny](https://github.com/jmathtech)
 
-## Example Screenshots
+## Sample Screenshots
 
 ##### The user credential form  
 ![image](https://user-images.githubusercontent.com/36749450/95696838-bb820a00-0c0a-11eb-84b5-2b9d7b9420c2.png)
