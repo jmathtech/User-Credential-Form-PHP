@@ -12,7 +12,7 @@
   * Download the [release](https://github.com/jmathtech/User-Credential-Form-PHP/releases/tag/php) .zip file.
   * Extract all of the folders and files.
   * Open your domain's SQL database server.
-  * Import the 'users.sql' from the 'sql' folder to the database (this will include dummy names to use to test the database).
+  * Import the 'users.sql' from the 'sql' folder to the database (this will include blanket info to use to test the database).
   * Open the 'connect.php' & 'customer.php' files from the .zip file to manually change the database credentials to your own database credentials. Example @ Establishing connection to server
   * Upload all files (except 'users.sql' and 'sql folder) and folders to your FTP server.
   * Go to your web browser and type in the web address https://yourdomain.com/users.php to see the user credential form.
