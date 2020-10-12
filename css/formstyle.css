@@ -1,59 +1,110 @@
-      html, body {
-	      
-      /* HTML document */	
-      min-height: 100%;
-	
-	
+	html, body {
+      
+	  	background-color: #fff;
+		padding-top: 10px;
+		font-family: Verdana;
+		
       }
 	  
-      
+	  /* HTML document */
       body, div, form, input, select, p { 
 	
-      padding-top: 30px;
-      padding-bottom: 10px;
-      padding-left: 30px;
-      padding-right: 30px;    
-      margin: 0;
-      outline: none;
-      font-family: Arial, Verdana;
-      font-size: 13px;
-      color: #000000;
-      line-height: 22px;
-	  position: relative;
-		
-	      
-      }
+	  color: #658a8a;
+      line-height: 30px;
+	  text-align: left;
+	  font-size: 0.90em;	
 	  
-
+     	  
+	  }
+	  
       /* User Credential title*/
       h2 {
+		  
       font-weight: 400px;
-	  color: #c5d1c8;
-
-	      
+	  color: #d1d1d1;
+	  font-family: Verdana;
+	  position: relative;
+	  text-align: left;
+	  
+	  }
+	  
+	  /* Form CSS Layout*/
+      form {
+		  
+      left: 30%;
+	  position: absolute;
+      width: 500px; 
+      padding: 2px;
+      border-radius: 10px;
+      box-shadow: 0 3px 5px 0 #b7c4b3; 
+	  padding-top: 50px;
+	  padding-left: 100px;
+      padding-right: 100px;
+	  padding-bottom: 50px;
+	  background-color: #fafafa;
+	  text-align: left;
+	  margin-bottom: 50px;
+	  
+	  }
+	  
+	  /* Form CSS User Input */
+      input {
+		  
+      margin-bottom: 10px;
+      border: 1px dotted #7fb395;
+      border-radius: 2px;
+      width: calc(100% - 20px);
+      padding: 1px;
+	  box-shadow: 2px 2px 2px 2px #ccc;
+	  padding-left: 10px;
+	  
       }
 	  
+	  input[type=submit] {
+		  
+	  background-color: #7fb395;
+	  border: none;
+	  color: #fff;
+	  padding: 16px 32px;
+	  text-decoration: none;
+	  text-align: center;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	  padding: 1px;
+	  padding-left: 30px;
+	  padding-right: 30px;
+	  box-shadow: 2px 2px 2px 2px #98b3b3; 
+	  
+	  }
+	  
+	  input:hover[type=submit] {
+		  
+	  background: #658a8a;
+	  
+	  }
+	  
+	  /********* BEGIN Scrollbar colors **********/
+	  
+		 ::-webkit-scrollbar {
+		  width: 10px;
+		}
 
-      /* Form CSS Layout*/
-      form {
-      width: 500px;
-      padding: 50px;
-      border-radius: 6px;
-      background: #fff;
-      box-shadow: 0 0 20px 0 #32a4a8; 
-	      
-	      
-      }
+		/* Track */
+		::-webkit-scrollbar-track {
+		  background: #e7f2e6; 
+		}
+		 
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: #7fb395; 
+		}
 
-
-      /* Form CSS User Input */
-      input {
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 3px;
-      width: calc(100% - 10px);
-      padding: 4px;
-	      
-      }
-
-	 }
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		  background: #c3c9b5; 
+		}
+	
+	/********* END Scrollbar colors **********/
+		  
+	
+	}
