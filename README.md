@@ -5,7 +5,7 @@
   * This comes with a GUI database. As you'll find, the CSS stylesheets are in separate folders.
   
 # DEMO
-* [User Credentials Form](https://www.jmath.tech/php/users.php) 
+* [User Credentials Form](https://form.jmath.tech) 
 * [Database for the form](https://www.jmath.tech/php/customers.php)
   
 # Instructions on how to install
