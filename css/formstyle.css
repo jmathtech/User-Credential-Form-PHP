@@ -10,7 +10,7 @@ html, body {
 body, div, form, input, select, p { 
 	
 	color: #658a8a;
-    line-height: 30px;
+    	line-height: 30px;
 	text-align: left;
 	font-size: 0.90em;	
 	  
@@ -20,7 +20,7 @@ body, div, form, input, select, p {
       /* User Credential title*/
 h2 {
 		  
-    font-weight: 400px;
+    	font-weight: 400px;
 	color: #d1d1d1;
 	font-family: Verdana;
 	position: relative;
@@ -31,12 +31,12 @@ h2 {
 	  /* Form CSS Layout*/
 form {
 		  
-    left: 30%;
+  	left: 30%;
 	position: relative;
-    width: 500px; 
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 3px 5px 0 #b7c4b3; 
+    	width: 500px; 
+    	padding: 50px;
+  	border-radius: 10px;
+   	box-shadow: 0 3px 5px 0 #b7c4b3; 
 	background-color: #fafafa;
 	text-align: left;
 	margin-bottom: 50px;
@@ -48,10 +48,10 @@ form {
 input {
 		  
 	margin-bottom: 10px;
-    border: 1px dotted #7fb395;
-    border-radius: 2px;
-    width: calc(100% - 20px);
-    padding: 1px;
+    	border: 1px dotted #7fb395;
+   	border-radius: 2px;
+    	width: calc(100% - 20px);
+    	padding: 1px;
 	box-shadow: 2px 2px 2px 2px #ccc;
 	padding-left: 10px;
 	  
