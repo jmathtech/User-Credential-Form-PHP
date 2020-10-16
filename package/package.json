@@ -1,9 +1,0 @@
-{
-  "name": "UserForm",
-  "version": "1.0.0",
-  "description": "A user form written in PHP for the user to input data and send it to the sql database.",
-  "main": "index.js",
-  "keywords": [],
-  "author": "Jamil Matheny",
-  "license": "ISC"
-}
