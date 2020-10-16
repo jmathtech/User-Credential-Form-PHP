@@ -2,7 +2,8 @@
 $mysqli = new mysqli("localhost","root","","customers");
 
 // Check connection
-if ($mysqli -> connect_errno) {
+if ($mysqli -> connect_errno) 
+{
   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
   exit();
 }
@@ -12,7 +13,8 @@ if ($mysqli -> connect_errno) {
 * In this case, its just a POST request.
 */
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
+{
 	
 // Stores the form values into PHP variables
 
