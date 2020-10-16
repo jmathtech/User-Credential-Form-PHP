@@ -4,8 +4,8 @@ $mysqli = new mysqli("localhost","root","","customers");
 // Check connection
 if ($mysqli -> connect_errno) 
 {
-  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-  exit();
+	  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+	  exit();
 }
 
 /*
@@ -16,18 +16,18 @@ if ($mysqli -> connect_errno)
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
 	
-// Stores the form values into PHP variables
+	// Stores the form values into PHP variables
 
-$Cus_FirstName = $_POST['Cus_FirstName']; // The method=”POST” is in the form HTML document.
-$Cus_LastName = $_POST['Cus_LastName'];
-$Cus_Email = $_POST['Cus_Email'];
-$Cus_Phone = $_POST['Cus_Phone'];
-$Cus_Address = $_POST['Cus_Address'];
-$Cus_BusinessName = $_POST['Cus_BusinessName'];
-$Cus_BusinessPhone = $_POST['Cus_BusinessPhone'];
-$Cus_BusinessEmail = $_POST['Cus_BusinessEmail'];
-$Cus_BusinessTaxID = $_POST['Cus_BusinessTaxID'];
-$Cus_NumOfStaff = $_POST['Cus_NumOfStaff'];
+	$Cus_FirstName = $_POST['Cus_FirstName']; // The method=”POST” is in the form HTML document.
+	$Cus_LastName = $_POST['Cus_LastName'];
+	$Cus_Email = $_POST['Cus_Email'];
+	$Cus_Phone = $_POST['Cus_Phone'];
+	$Cus_Address = $_POST['Cus_Address'];
+	$Cus_BusinessName = $_POST['Cus_BusinessName'];
+	$Cus_BusinessPhone = $_POST['Cus_BusinessPhone'];
+	$Cus_BusinessEmail = $_POST['Cus_BusinessEmail'];
+	$Cus_BusinessTaxID = $_POST['Cus_BusinessTaxID'];
+	$Cus_NumOfStaff = $_POST['Cus_NumOfStaff'];
 }
 
 // SQL query to insert the variables into the database fields 
