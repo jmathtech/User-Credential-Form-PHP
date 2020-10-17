@@ -81,3 +81,5 @@ if ($mysqli -> connect_errno) {
 ##### The database
 ![image](https://user-images.githubusercontent.com/36749450/95684777-c6fd1300-0bc1-11eb-8023-3d2bdea406a2.png)
 
+#### License
+[GNU General Public License v3.0](https://github.com/jmathtech/User-Credential-Form-PHP/blob/main/LICENSE)
