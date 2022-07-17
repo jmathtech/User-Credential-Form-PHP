@@ -78,7 +78,7 @@ if ($mysqli -> connect_errno) {
 ##### The user credential form  
 ![image](https://user-images.githubusercontent.com/36749450/95696838-bb820a00-0c0a-11eb-84b5-2b9d7b9420c2.png)
 
-##### The database
+##### The database (dummy data)
 ![image](https://user-images.githubusercontent.com/36749450/95684777-c6fd1300-0bc1-11eb-8023-3d2bdea406a2.png)
 
 ## License
